@@ -1,0 +1,47 @@
+.todo {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.search-btn {
+    position: relative;
+    top: 0;
+    padding: 5px 10px;
+    right: 50px;
+    color: #fff;
+    background-color: rgb(14, 95, 187);
+    border-radius: 10px;
+    border: 1px solid rgb(14, 95, 187);
+}
+.search-btn:hover {
+    background-color: rgb(11, 64, 124);
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.todo-search {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 225, 225);
+    width: 200px;
+    padding: 10px 10px;
+    background-color: rgb(228, 225, 225);
+}
+
+.todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 350px) {
+    .todo {
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
